@@ -2,22 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFCDD2"
+    android:background="#FFFFFF"
     android:orientation="vertical"
     android:padding="16dp">
-
-    <TextView
-        android:id="@+id/contact_form_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="16dp"
-        android:layout_marginTop="5dp"
-        android:text="Viral Android"
-        android:textColor="#ce3232"
-        android:textSize="40sp"
-        android:typeface="serif" />
-
+    
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -59,20 +47,6 @@
 
     <EditText
         android:layout_width="fill_parent"
-        android:layout_height="150dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/colorPrimaryDark"
-        android:gravity="top"
-        android:hint="Your Message"
-        android:fitsSystemWindows="true"
-        android:breakStrategy="balanced"
-        android:inputType="textMultiLine"
-        android:singleLine="false"
-        android:padding="5dp" />
-
-    <EditText
-        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
@@ -88,6 +62,6 @@
         android:elevation="4dp"
         android:paddingLeft="70dp"
         android:paddingRight="70dp"
-        android:text="Submit"
+        android:text="Enviar"
         android:textColor="#fff" />
 </LinearLayout>
